@@ -4,7 +4,7 @@
         "title": "Todo API",
         "description": "This is the API documentation for the Todo app.",
         "contact": {
-            "email": "your_email@example.com"
+            "email": "redcarrot0803@gmail.com"
         },
         "license": {
             "name": "Apache 2.0",
@@ -21,9 +21,7 @@
     "paths": {
         "/api/tasks": {
             "get": {
-                "tags": [
-                    "Tasks"
-                ],
+                "tags": ["Tasks"],
                 "summary": "Get list of all tasks",
                 "operationId": "471d938a3bfaeb6fbd981d7c3e2728b0",
                 "responses": {
@@ -69,9 +67,7 @@
                 }
             },
             "post": {
-                "tags": [
-                    "Tasks"
-                ],
+                "tags": ["Tasks"],
                 "summary": "Create a new task",
                 "operationId": "f803ebdb2300acdb7e93bbe8d0b9a2e8",
                 "requestBody": {
@@ -140,9 +136,7 @@
         },
         "/api/tasks/{id}": {
             "delete": {
-                "tags": [
-                    "Tasks"
-                ],
+                "tags": ["Tasks"],
                 "summary": "Delete a task",
                 "operationId": "ad582480cd57c2a4e3b6a426943eeca5",
                 "parameters": [
